@@ -6,10 +6,16 @@ public class Tester {
 		// TODO Auto-generated method stub
       Tester t= new Tester();
       t.add();
+      t.product();
 	}
 	void add()
 	{
 	System.out.println("sum=  "+(n1+n2));
 	}
+	void product()
+	{
+	System.out.println("product=  "+(n1*n2));
+	}
+
 
 }
